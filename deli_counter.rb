@@ -1,8 +1,8 @@
 katz_deli = []
 
 def take_a_number(array, name)
-  katz_deli<< name
-  position = katz_deli.length 
+  array<< name
+  position = array.length 
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
