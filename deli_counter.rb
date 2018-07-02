@@ -10,3 +10,7 @@ def line(katz_deli)
   katz_deli.length == 0 ? "The line is currently empty." : 
     
 end
+
+def now_serving
+  katz_deli.empry?
+end
