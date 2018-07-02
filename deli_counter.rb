@@ -7,7 +7,7 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli)
-  katz_deli.length == 0 ? "The line is currently empty." :  "boop"
+  katz_deli.length == 0 ? puts "The line is currently empty." :  "boop"
     
 end
 
