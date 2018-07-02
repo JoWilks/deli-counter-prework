@@ -15,6 +15,5 @@ end
 def now_serving(array)
   array.empty? ? (puts "The line is currently empty.") :
     (curr_serve = array.shift()
-      puts ""
-    "False"
+      puts "" )
 end
