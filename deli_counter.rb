@@ -15,6 +15,6 @@ end
 def now_serving
   katz_deli.empty? ? (puts "The line is currently empty.") :
     (curr_serve = katz_deli.shift()
-      
+      puts 
     "False"
 end
