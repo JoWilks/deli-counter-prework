@@ -7,9 +7,9 @@ def take_a_number(array, name)
 end
 
 def line(array)
-  katz_deli.length==0? "The line is currently empty.": katz_deli 
+  array.length==0? "The line is currently empty.": "false"
 end
 
 def now_serving
-  katz_deli.empty?  "The line is currently empty." :  
+  array.empty? ?  "The line is currently empty." :  "False"
 end
