@@ -12,8 +12,8 @@ def line(katz_deli)
   puts "The line is currently: katz_deli" )
 end
 
-def now_serving(array)
-  array.empty? ? (puts "The line is currently empty.") :
-    (curr_serve = array.shift()
+def now_serving(katz_deli)
+  katz_deli.empty? ? (puts "The line is currently empty.") :
+    (curr_serve = katz_deli.shift()
       puts "" )
 end
