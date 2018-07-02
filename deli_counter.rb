@@ -7,7 +7,7 @@ def take_a_number(array, name)
 end
 
 def line(array)
-  array.length==0 ? "The line is currently empty.": "false"
+  array.empty? ? puts "The line is currently empty.": "false"
 end
 
 def now_serving
