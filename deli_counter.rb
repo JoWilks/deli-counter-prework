@@ -7,9 +7,11 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli)
-  katz_deli.empty? ? (puts "The line is currently empty.") : (puts katz_deli )
+  katz_deli.empty? ? (puts "The line is currently empty.") : 
+  (
+  puts "The line is currently: katz_deli" )
 end
 
 def now_serving
-  katz_deli.empty? ?  "The line is currently empty." :  "False"
+  katz_deli.empty? ? (puts "The line is currently empty.") : "False"
 end
