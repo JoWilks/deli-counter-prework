@@ -6,7 +6,7 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
-def line(katz_deli)
+def line(array)
   katz_deli.length==0? "The line is currently empty.": katz_deli 
 end
 
