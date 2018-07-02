@@ -11,5 +11,5 @@ def line(katz_deli)
 end
 
 def now_serving
-  katz_deli.empty? 
+  katz_deli.empty?  "The line is currently empty." :  
 end
